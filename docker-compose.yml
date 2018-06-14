@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  swtestapp:
+    image: ${DOCKER_REGISTRY}swtestapp
+    build:
+      context: .
+      dockerfile: swTestApp/Dockerfile

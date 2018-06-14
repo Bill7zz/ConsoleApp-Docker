@@ -1,0 +1,7 @@
+services:
+  swtestapp:
+    build:
+      context: C:\Users\billy\source\repos\swTestApp
+      dockerfile: swTestApp/Dockerfile
+    image: swtestapp
+version: '3.4'
