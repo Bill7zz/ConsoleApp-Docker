@@ -9,13 +9,11 @@ namespace swTestApp
     {
         static void Main(string[] args)
         {
-
             var apiUrl = "http://loripsum.net/api/1/short/prude";
             var sampleText = GetTextFromApiLorem(apiUrl);
 
             Console.WriteLine("Loren text from web API - loripsum.net ");
             Console.WriteLine(sampleText);
-
         }
 
         private static string GetTextFromApiLorem(string url)
