@@ -1,9 +1,10 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 14.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "swTestApp", "swTestApp\swTestApp.csproj", "{153FF5D4-D54E-4001-9541-C5EBCBB23910}"
+xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AA357C18-ACB5-40AD-8C06-35A1BE877BD5}"
 EndProject
